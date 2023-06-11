@@ -157,7 +157,9 @@ document.addEventListener("DOMContentLoaded", () => {
     return; // Exit the function without updating the values
   }
     if (isNaN(pledge1) || pledge1 <= 0 || pledge1 === "") {
+    
       errorMsg.textContent = "invalid input";
+      
     }
     const actualAmount = Number(userinput);
     if (isNaN(actualAmount) || actualAmount <= 0 || actualAmount === '') {
